@@ -1,0 +1,85 @@
+
+
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #f894f8;
+}
+
+.container {
+    background-color: #fff;
+    width: 600px;
+}
+form{
+    padding: 31px 66px;
+}
+header{
+    background-color: rgb(12, 185, 190);
+}
+header h2 {
+    text-align: center;
+    font-size: 40px;
+    /* margin-bottom: 50px; */
+    color: chartreuse;
+    font-weight: 700;
+    padding: 53px 0;
+}
+.form-control {
+    margin: 36px 0;
+    position: relative;
+}
+.form-control label{
+   display: inline-block;
+   font-size: 20px;
+   color: #000;
+   margin-bottom: 5px;
+}
+
+.form-control input{
+    width: 95%;
+    height: 2rem;
+    padding: 10px;
+    border:1px solid #9b9b9b;
+   outline: none;
+ 
+
+}
+.form-control input:focus{
+    border:1px solid #9b9b9b;
+    outline: none;
+    box-shadow: none;
+}
+.form-control i {
+    position: absolute;
+    right: 15px;
+    transform: translateY(-202%);
+}
+.fa-circle-check{
+    color: green;
+    display: none;
+}
+.fa-circle-exclamation{
+    color: red;
+    display: none;
+}
+.form-control p {
+    position: absolute;
+    left: 0;
+    top: 115px;
+    transform: translateY(-202%);
+    font-size: 14px;
+    color: #9b9b9b;
+    padding: 0;
+    margin: 4px 0 0 3px;
+}
+
+
+ .btn {
+    width: 100%;
+    padding: 20px 0;
+    border: 1px solid #9b9b9b;
+    display: inline-block;
+}
